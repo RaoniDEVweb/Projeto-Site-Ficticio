@@ -1,0 +1,48 @@
+body{
+	background: #d2d2c1 url('imagens/fundo.png');
+font: 16px Arial, Helvetica, sans-serif;
+}
+#principal{
+	/* \/ para definir uma largura padrao */
+	width: 900px;
+}
+#menu{
+	/*\/ definir cor de fundo */
+	background: #c5c5b2;
+	padding: 18px;
+}
+#conteudo{
+	background: #e8e8d0;
+	/*\/ para afastar o conteudo do anto esquerdo da tela */
+	padding: 10px;
+}
+
+#rodape {
+	text-align: center;
+
+}
+a{
+	color: #4b566a;
+	/* \/ para remover o anderline do link */
+	text-decoration: none;
+	/* \/para deixar o nme mais grosso*/
+	font-weight: bold;
+	/*\/ para almentar o espaçamento entre os links */
+	padding: 5px;	
+}
+
+.centralizar{
+	/* \/ para alinhar, tambem pode colocar left para direita ou west para esquerda */
+	text-align: center;
+
+}
+.img-campanha{
+	/* borda apra as imagens de campanha */
+	/* borda de 10 ppx com a cor #c3c3ae */
+	border: 10px solid #c3c3ae;
+}
+
+h1 {
+	color: #828271;
+	font-size: 1.2em;
+}
